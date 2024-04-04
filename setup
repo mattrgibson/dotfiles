@@ -29,6 +29,8 @@ ln -sf "$ICLOUD" ~/icloud
 # install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# brew packages
 brew install --cask alacritty
 brew tap homebrew/cask-fonts
 brew install --cask homebrew/cask-fonts/font-ubuntu-mono-nerd-font
+brew install tmux
