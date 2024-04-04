@@ -17,9 +17,10 @@ export GHREPOS="$REPOS/github.com/$GITUSER"
 export DOTFILES="$GHREPOS/dotfiles"
 export ICLOUD="$HOME/icloud"
 export SECOND_BRAIN="$HOME/brain"
+export SCRIPTS="$DOTFILES/scripts"
 
 # ~~~~~~~~~~~~~~~ Path configuration ~~~~~~~~~~~~~~~~~~~~~~~~
-
+PATH="${PATH:+${PATH}:}"$SCRIPTS""
 
 # ~~~~~~~~~~~~~~~ History ~~~~~~~~~~~~~~~~~~~~~~~~
 
