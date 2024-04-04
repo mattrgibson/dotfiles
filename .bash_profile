@@ -12,8 +12,8 @@ if [[ $(grep -E "^(ID|NAME)=" /etc/os-release | grep -q "ubuntu")$? == 0 ]]; the
   eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 fi
 
-if [ -r ~/.bashrc ]; then
-  source ~/.bashrc
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
 fi
 
 export XDG_CONFIG_HOME="$HOME"/.config

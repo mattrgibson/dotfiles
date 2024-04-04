@@ -30,8 +30,23 @@ export HISTCONTROL=ignorespace
 
 # ~~~~~~~~~~~~~~~ Aliases ~~~~~~~~~~~~~~~~~~~~~~~~
 
-alias dot='cd $GHREPOS/dotfiles'
-alias repos='cd $REPOS'
+alias v=nvim
 
+# cd
+alias ..="cd .."
+
+# repos
+alias dot='cd $GHREPOS/dotfiles'
 alias icloud="cd \$ICLOUD"
+alias repos='cd $REPOS'
 alias sb="cd \$SECOND_BRAIN"
+
+alias c="clear"
+
+# git
+alias gp='git pull'
+alias gs='git status'
+
+# terraform
+alias tf='terraform'
+alias tp='terraform plan'

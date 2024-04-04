@@ -7,7 +7,7 @@ import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 size = 12
 
 [font.normal]
-family = "CaskaydiaCove Nerd Font"
+family = "UbuntuMono Nerd Font"
 
 [window]
 decorations = "none"
@@ -15,3 +15,7 @@ decorations = "none"
 [window.padding]
 x = 7
 y = 0
+
+[shell]
+program = "/opt/homebrew/bin/bash"
+args = ["-l"]

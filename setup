@@ -31,5 +31,4 @@ ln -sf "$ICLOUD" ~/icloud
 
 brew install --cask alacritty
 brew tap homebrew/cask-fonts
-brew install --cask font-UbuntuMono Nerd Font-nerd-font
-
+brew install --cask homebrew/cask-fonts/font-ubuntu-mono-nerd-font
