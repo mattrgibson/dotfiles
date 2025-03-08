@@ -2,9 +2,14 @@
 echo "Installing Vim Monk System..."
 
 # Symlink dotfiles
-ln -sf ~/.config/zsh/.zshrc ~/.zshrc
+rm ~/.bashrc
+rm ~/.zshrc
+
+ln -s ~/.config/bash/.bashrc ~/.bashrc
+ln -s ~/.config/zsh/.zshrc ~/.zshrc
 
 # Install all Brew packages
 brew bundle install --file ~/.config/Brewfile
 
+source ~/.bashrc
 echo "Welcome back, monk."
