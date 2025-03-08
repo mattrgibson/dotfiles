@@ -22,3 +22,6 @@ else {
 	$linkLocation = "~\.config\powershell\profile5.ps1"
 }
 New-Item -Path $linkLocation -ItemType SymbolicLink -Target $PROFILE -Force
+
+# Reload the profile to apply the new settings
+. $PROFILE
