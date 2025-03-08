@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 brew "neovim"
 brew "starship"
+brew "azure-cli"
 cask "alacritty"
 vscode "adpyke.codesnap"
 vscode "beardedbear.beardedtheme"
