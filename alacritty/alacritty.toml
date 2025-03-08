@@ -1,0 +1,12 @@
+# Font settings
+[font]
+  normal = { family = "RobotoMono Nerd Font", style = "Regular" }
+  size = 14.0
+
+# Colors
+[colors]
+  primary = { background = "0x1d2021", foreground = "0xebdbb2" }
+
+# Window opacity
+[window]
+  opacity = 0.9
