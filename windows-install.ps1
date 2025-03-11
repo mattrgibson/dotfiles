@@ -1,6 +1,7 @@
 #Requires -RunAsAdministrator
 
 # Install software packages
+winget install --id GitHub.cli --accept-source-agreements --silent --source winget
 winget install --id vscode --source winget --accept-source-agreements --silent
 winget install --id Git.Git -e --source winget --accept-source-agreements --silent
 winget install --id Starship.Starship --accept-source-agreements --silent
@@ -12,6 +13,7 @@ winget install --id Doist.Todoist --source winget --accept-source-agreements --s
 winget install --id Obsidian.Obsidian --source winget --accept-source-agreements --silent
 winget install --id mRemoteNG.mRemoteNG --source winget --accept-source-agreements --silent
 winget install --id Apple.iCloud --source winget --accept-source-agreements --silent
+winget install --id OpenJS.NodeJS --source winget --accept-source-agreements --silent
 
 # Create a symlink to our config directory and PowerShell profile
 $linkLocation = ""
