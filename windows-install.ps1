@@ -14,6 +14,7 @@ winget install --id Obsidian.Obsidian --source winget --accept-source-agreements
 winget install --id mRemoteNG.mRemoteNG --source winget --accept-source-agreements --silent
 winget install --id Apple.iCloud --source winget --accept-source-agreements --silent
 winget install --id OpenJS.NodeJS --source winget --accept-source-agreements --silent
+winget install "Microsoft Loop" --source msstore --accept-source-agreements --silent
 
 # Create a symlink to our config directory and PowerShell profile
 $linkLocation = ""
