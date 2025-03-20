@@ -15,6 +15,11 @@ winget install --id mRemoteNG.mRemoteNG --source winget --accept-source-agreemen
 winget install --id Apple.iCloud --source winget --accept-source-agreements --silent
 winget install --id OpenJS.NodeJS --source winget --accept-source-agreements --silent
 winget install "Microsoft Loop" --source msstore --accept-source-agreements --silent
+winget install --id Mozilla.Firefox --source winget --accept-source-agreements --silent
+winget install --id Elgato.StreamDeck --source winget --accept-source-agreements --silent
+
+# Required to run Docker windows containers
+Enable-WindowsOptionalFeature -Online -FeatureName $("Microsoft-Hyper-V", "Containers") -All
 
 # Create a symlink to our config directory and PowerShell profile
 $linkLocation = ""
