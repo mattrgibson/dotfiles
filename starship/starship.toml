@@ -5,7 +5,6 @@ $os\
 $directory\
 [](fg:#48e2e0 bg:#394260)\
 $git_branch\
-$git_status\
 [](fg:#394260 bg:#212736)\
 $nodejs\
 $rust\
@@ -111,3 +110,5 @@ format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
 format = '[$symbol $version$workspace]($style) '
 symbol = " "
 
+[status]
+disabled = true
