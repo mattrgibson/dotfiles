@@ -31,5 +31,13 @@ else {
 }
 New-Item -Path $linkLocation -ItemType SymbolicLink -Target $PROFILE -Force
 
+# Change multitasking to not include Edge tabs
+Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" `
+                 -Name "MultiTaskingAltTabFilter" `
+                 -Type DWord `
+                 -Value 3
+Stop-Process -Name explorer -Force
+Start-Process explorer
+
 # Reload the profile to apply the new settings
 . $PROFILE
