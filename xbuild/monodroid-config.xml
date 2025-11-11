@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<monodroid>
+  <java-sdk path="/Library/Java/JavaVirtualMachines/microsoft-21.jdk/Contents/Home" />
+<android-sdk path="/Users/matt/Library/Android/sdk" /></monodroid>
